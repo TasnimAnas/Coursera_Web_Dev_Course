@@ -30,12 +30,20 @@ section section {
   clear: both;
 }
 p {
-  background-color: yellow;
   color: black;
   padding: 5px;
   float: right;
   border-bottom: 3px solid black;
   border-left: 3px solid black;
+}
+#p1 {
+  background-color: pink;
+}
+#p2 {
+  background-color: yellow;
+}
+#p3 {
+  background-color: red;
 }
 
 @media (min-width: 992px) {
